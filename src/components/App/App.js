@@ -1,9 +1,11 @@
 import List from "../List/List";
+import Header from "../Header/Header";
+import './App.css'
 
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       {/* <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header />
       <List />
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./List.css";
 
 export default class List extends Component {
   constructor(props) {
@@ -8,6 +9,12 @@ export default class List extends Component {
       newItem: "",
       list: [],
     };
+
+    this.input = React.createRef();
+  }
+
+  componentDidMount() {
+    this.input.current.focus();
   }
 
   updateInput(key, value) {
@@ -33,6 +40,8 @@ export default class List extends Component {
       newItem: "",
       list,
     });
+
+    this.input.current.focus();
   }
 
   deleteItem(id) {
@@ -44,21 +53,27 @@ export default class List extends Component {
   render() {
     return (
       <div>
-        <div>
-          Add an item ...
-          <br />
-          <input
-            type="text"
-            placeholder="Type item here"
-            value={this.state.newItem}
-            onChange={(e) => this.updateInput("newItem", e.target.value)}
-          />
-          <button onClick={() => this.addItem()}>Add</button>
-          <br />
-          <ul>
+        <div className="todo-container">
+          <div>
+            <p>Add an item ...</p>
+          </div>
+          <div class="card add">
+            <input
+              type="text"
+              class="txt-input"
+              placeholder="Type item here"
+              ref={this.input}
+              value={this.state.newItem}
+              onChange={(e) => this.updateInput("newItem", e.target.value)}
+            />
+            <button id="add-btn" onClick={() => this.addItem()}>
+              Add
+            </button>
+          </div>
+          <ul className="todos">
             {this.state.list.map((item) => {
               return (
-                <li key={item.id}>
+                <li className="card item" key={item.id}>
                   {item.value}
                   <button onClick={() => this.deleteItem(item.id)}>x</button>
                 </li>

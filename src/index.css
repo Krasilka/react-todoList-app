@@ -1,0 +1,28 @@
+:root {
+  --ff-sans: "Josefin Sans", sans-serif;
+  --base-font: 1.6rem;
+  --fw-normal: 400;
+  --card-bg: hsl(234, 23%, 17%);
+  --clr-box-shadow: hsl(0, 0%, 0%, 0.1);
+  --clr-blue: hsl(268, 34%, 51%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  position: relative;
+  background-image: linear-gradient(black, purple);
+  min-height: 100%;
+}
+
+body {
+  font: var(--fw-normal) var(--base-font) var(--ff-sans);
+  padding-top: 8rem;
+  width: min(85%, 54rem);
+  margin: auto;
+}
