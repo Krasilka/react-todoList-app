@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Krasilka/react-todoList-app/static/css/main.3a3673e4.chunk.css",
-    "main.js": "/Krasilka/react-todoList-app/static/js/main.910b43b6.chunk.js",
-    "main.js.map": "/Krasilka/react-todoList-app/static/js/main.910b43b6.chunk.js.map",
-    "runtime-main.js": "/Krasilka/react-todoList-app/static/js/runtime-main.b0acf91a.js",
-    "runtime-main.js.map": "/Krasilka/react-todoList-app/static/js/runtime-main.b0acf91a.js.map",
-    "static/js/2.ba4411b9.chunk.js": "/Krasilka/react-todoList-app/static/js/2.ba4411b9.chunk.js",
-    "static/js/2.ba4411b9.chunk.js.map": "/Krasilka/react-todoList-app/static/js/2.ba4411b9.chunk.js.map",
-    "static/js/3.5dd872cd.chunk.js": "/Krasilka/react-todoList-app/static/js/3.5dd872cd.chunk.js",
-    "static/js/3.5dd872cd.chunk.js.map": "/Krasilka/react-todoList-app/static/js/3.5dd872cd.chunk.js.map",
-    "index.html": "/Krasilka/react-todoList-app/index.html",
-    "static/css/main.3a3673e4.chunk.css.map": "/Krasilka/react-todoList-app/static/css/main.3a3673e4.chunk.css.map",
-    "static/js/2.ba4411b9.chunk.js.LICENSE.txt": "/Krasilka/react-todoList-app/static/js/2.ba4411b9.chunk.js.LICENSE.txt",
-    "static/media/logo_todo.92fff74c.svg": "/Krasilka/react-todoList-app/static/media/logo_todo.92fff74c.svg"
+    "main.css": "/react-todoList-app/static/css/main.3a3673e4.chunk.css",
+    "main.js": "/react-todoList-app/static/js/main.910b43b6.chunk.js",
+    "main.js.map": "/react-todoList-app/static/js/main.910b43b6.chunk.js.map",
+    "runtime-main.js": "/react-todoList-app/static/js/runtime-main.3d795380.js",
+    "runtime-main.js.map": "/react-todoList-app/static/js/runtime-main.3d795380.js.map",
+    "static/js/2.ba4411b9.chunk.js": "/react-todoList-app/static/js/2.ba4411b9.chunk.js",
+    "static/js/2.ba4411b9.chunk.js.map": "/react-todoList-app/static/js/2.ba4411b9.chunk.js.map",
+    "static/js/3.5dd872cd.chunk.js": "/react-todoList-app/static/js/3.5dd872cd.chunk.js",
+    "static/js/3.5dd872cd.chunk.js.map": "/react-todoList-app/static/js/3.5dd872cd.chunk.js.map",
+    "index.html": "/react-todoList-app/index.html",
+    "static/css/main.3a3673e4.chunk.css.map": "/react-todoList-app/static/css/main.3a3673e4.chunk.css.map",
+    "static/js/2.ba4411b9.chunk.js.LICENSE.txt": "/react-todoList-app/static/js/2.ba4411b9.chunk.js.LICENSE.txt",
+    "static/media/logo_todo.92fff74c.svg": "/react-todoList-app/static/media/logo_todo.92fff74c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0acf91a.js",
+    "static/js/runtime-main.3d795380.js",
     "static/js/2.ba4411b9.chunk.js",
     "static/css/main.3a3673e4.chunk.css",
     "static/js/main.910b43b6.chunk.js"
