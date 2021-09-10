@@ -1,12 +1,13 @@
 .App-header {
-  /* min-height: 50vh; */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
   font-size: calc(10px + 2vmin);
+  margin-left: -4rem;
 }
 
 .App-logo {
   height: 10rem;
   pointer-events: none;
 }
+

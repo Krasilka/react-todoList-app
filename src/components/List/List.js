@@ -54,14 +54,12 @@ export default class List extends Component {
     return (
       <div>
         <div className="todo-container">
-          <div>
-            <p>Add an item ...</p>
-          </div>
+          <div>{/* <p>Add an item ...</p> */}</div>
           <div class="card add">
             <input
               type="text"
               class="txt-input"
-              placeholder="Type item here"
+              placeholder="Type here to add item"
               ref={this.input}
               value={this.state.newItem}
               onChange={(e) => this.updateInput("newItem", e.target.value)}

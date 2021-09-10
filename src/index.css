@@ -1,10 +1,11 @@
 :root {
-  --ff-sans: "Josefin Sans", sans-serif;
+  --ff-sans: "Glory", sans-serif;
   --base-font: 1.6rem;
   --fw-normal: 400;
   --card-bg: hsl(234, 23%, 17%);
   --clr-box-shadow: hsl(0, 0%, 0%, 0.1);
-  --clr-blue: hsl(268, 34%, 51%);
+  --clr-btn: hsl(268, 34%, 51%);
+  --clr-font: white;
 }
 
 * {
@@ -22,6 +23,7 @@ html {
 
 body {
   font: var(--fw-normal) var(--base-font) var(--ff-sans);
+  color: var(--clr-font);
   padding-top: 8rem;
   width: min(85%, 54rem);
   margin: auto;

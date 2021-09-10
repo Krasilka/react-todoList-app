@@ -13,6 +13,10 @@ button {
   margin: 5rem auto;
 }
 
+div > p {
+  justify-content: flex-start;
+}
+
 .todos {
   width: 100%;
 }
@@ -25,7 +29,7 @@ button {
 .card {
   background-color: var(--card-bg);
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   border-radius: 0.5rem;
   padding: 1.9rem 2rem;
@@ -40,9 +44,9 @@ button {
 }
 
 .add #add-btn {
-  color: var(--clr-blue);
+  color: var(--clr-btn);
   font-size: var(--base-font);
-  width: 100%;
+  width: fit-content;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -50,4 +54,18 @@ button {
 
 ul {
   list-style: none;
+}
+
+.txt-input {
+  color: var(--clr-font);
+  outline: none;
+}
+
+li.card.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card.item > button {
+  color: var(--clr-btn);
 }
